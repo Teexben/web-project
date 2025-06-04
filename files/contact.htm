@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Teex Academy</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.htm" class="logo">Trading<span>Pro</span></a>
+            <div class="nav-links">
+                <a href="index.htm">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="testimonials.html">Success Stories</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Have questions? Our team is here to help you start your trading journey.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>support@tradingpro.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+255 (7) 50615631</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Office Hours</h3>
+                        <p>Monday - Friday: 9AM - 5PM EST</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://drive.google.com/drive/folders/1KZsacDmRgyJHGUvxVxbBUM4cy0V6BamX"><img src="../icons/icons8-telegram-100.jpg" alt="telegram"></a>
+                        <a href="https://drive.google.com/drive/folders/1KZsacDmRgyJHGUvxVxbBUM4cy0V6BamX"><img src="../icons/icons8-x-100.jpg" alt="Twitter"></a>
+                        <a href="https://drive.google.com/drive/folders/1KZsacDmRgyJHGUvxVxbBUM4cy0V6BamX"><img src="../icons/icons8-linkedin-50.jpg" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Schedule a Consultation</h2>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Program of Interest</label>
+                            <select id="interest" name="interest">
+                                <option value="">Select a program</option>
+                                <option value="foundations">Foundations of Trading</option>
+                                <option value="professional">Professional Trader Program</option>
+                                <option value="algorithmic">Algorithmic Trading</option>
+                                <option value="notsure">Not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Consultation Date*</label>
+                            <input type="date" id="date" name="date" required>
+                            <div class="error-message" id="dateError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Questions</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What's the best program for beginners?</h3>
+                    <p>Our Foundations of Trading program is specifically designed for beginners, covering all the essential concepts from the ground up.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer payment plans?</h3>
+                    <p>Yes, we offer flexible payment plans for all our programs. Contact us for details.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are the courses live or pre-recorded?</h3>
+                    <p>We offer both! Most programs include pre-recorded lessons plus live weekly Q&A sessions.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a money-back guarantee?</h3>
+                    <p>We offer a 14-day satisfaction guarantee on all our programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>TradingPro</h3>
+                    <p>Providing world-class trading education since 2010.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.htm">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://drive.google.com/drive/folders/1KZsacDmRgyJHGUvxVxbBUM4cy0V6BamX"><img src="../icons/icons8-telegram-100.jpg" alt="telegram"></a>
+                        <a href="https://drive.google.com/drive/folders/1KZsacDmRgyJHGUvxVxbBUM4cy0V6BamX"><img src="../icons/icons8-x-100.jpg" alt="Twitter"></a>
+                        <a href="https://drive.google.com/drive/folders/1KZsacDmRgyJHGUvxVxbBUM4cy0V6BamX"><img src="../icons/icons8-linkedin-50.jpg" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Teex 101. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
